@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Testimonials from './Testimonials'
 
 function Home() {
     return (
@@ -241,62 +242,62 @@ function Home() {
             {/* <!-- Project End --> */}
 
             {/* <!-- Blog Start --> */}
-            <div class="container-fluid blog py-5 mb-5">
-                <div class="container">
-                    <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style={{ maxWidth: '600px' }}>
-                        <h5 class="text-primary">Accessories</h5>
+            <div className="container-fluid blog py-5 mb-5">
+                <div className="container">
+                    <div className="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s" style={{ maxWidth: '600px' }}>
+                        <h5 className="text-primary">Accessories</h5>
                         <h1>All Types Accessories</h1>
                     </div>
-                    <div class="row g-5 justify-content-center">
-                        <div class="col-lg-3 col-xl-3 wow fadeIn" data-wow-delay=".3s">
-                            <div class="blog-item position-relative bg-light rounded">
-                                {/* <img src="./assets/img/blog-1.jpg" class="img-fluid w-100 rounded-top" alt="" /> */}
-                                <div class="blog-content text-center position-relative px-3" style={{ marginTop: '-25px' }}>
-                                    <img src="./assets/img/admin.jpg" class="img-fluid rounded-circle border border-4 border-white mb-3" alt="" />
-                                    <h5 class="mb-3">WiFi Routers</h5>
+                    <div className="row g-5 justify-content-center">
+                        <div className="col-lg-3 col-xl-3 wow fadeIn" data-wow-delay=".3s">
+                            <div className="blog-item position-relative bg-light rounded">
+                                {/* <img src="./assets/img/blog-1.jpg" className="img-fluid w-100 rounded-top" alt="" /> */}
+                                <div className="blog-content text-center position-relative px-3" style={{ marginTop: '-25px' }}>
+                                    <img src="./assets/img/admin.jpg" className="img-fluid rounded-circle border border-4 border-white mb-3" alt="" />
+                                    <h5 className="mb-3">WiFi Routers</h5>
                                 </div>
-                                <div class="blog-coment d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
-                                    {/* <a href="" class="text-white"><small><i class="fas fa-share me-2 text-secondary"></i>5324 Share</small></a>
-                                    <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>5 Comments</small></a> */}
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-xl-3 wow fadeIn" data-wow-delay=".5s">
-                            <div class="blog-item position-relative bg-light rounded">
-                                {/* <img src="./assets/img/blog-2.jpg" class="img-fluid w-100 rounded-top" alt="" /> */}
-                                <div class="blog-content text-center position-relative px-3" style={{ marginTop: '-25px' }}>
-                                    <img src="./assets/img/admin.jpg" class="img-fluid rounded-circle border border-4 border-white mb-3" alt="" />
-                                    <h5 class="mb-3">Pendrive & Hard Disks</h5>
-                                </div>
-                                <div class="blog-coment d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
-                                    {/* <a href="" class="text-white"><small><i class="fas fa-share me-2 text-secondary"></i>5324 Share</small></a>
-                                    <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>5 Comments</small></a> */}
+                                <div className="blog-coment d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
+                                    {/* <a href="" className="text-white"><small><i className="fas fa-share me-2 text-secondary"></i>5324 Share</small></a>
+                                    <a href="" className="text-white"><small><i className="fa fa-comments me-2 text-secondary"></i>5 Comments</small></a> */}
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-xl-3 wow fadeIn" data-wow-delay=".7s">
-                            <div class="blog-item position-relative bg-light rounded">
-                                {/* <img src="./assets/img/blog-3.jpg" class="img-fluid w-100 rounded-top" alt="" /> */}
-                                <div class="blog-content text-center position-relative px-3" style={{ marginTop: '-25px' }}>
-                                    <img src="./assets/img/admin.jpg" class="img-fluid rounded-circle border border-4 border-white mb-3" alt="" />
-                                    <h5 class="mb-3">Motherboards / RAM</h5>
+                        <div className="col-lg-3 col-xl-3 wow fadeIn" data-wow-delay=".5s">
+                            <div className="blog-item position-relative bg-light rounded">
+                                {/* <img src="./assets/img/blog-2.jpg" className="img-fluid w-100 rounded-top" alt="" /> */}
+                                <div className="blog-content text-center position-relative px-3" style={{ marginTop: '-25px' }}>
+                                    <img src="./assets/img/admin.jpg" className="img-fluid rounded-circle border border-4 border-white mb-3" alt="" />
+                                    <h5 className="mb-3">Pendrive & Hard Disks</h5>
                                 </div>
-                                <div class="blog-coments d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
-                                    {/* <a href="" class="text-white"><small><i class="fas fa-share me-2 text-secondary"></i>5324 Share</small></a>
-                                    <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>5 Comments</small></a> */}
+                                <div className="blog-coment d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
+                                    {/* <a href="" className="text-white"><small><i className="fas fa-share me-2 text-secondary"></i>5324 Share</small></a>
+                                    <a href="" className="text-white"><small><i className="fa fa-comments me-2 text-secondary"></i>5 Comments</small></a> */}
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-xl-3 wow fadeIn" data-wow-delay=".7s">
-                            <div class="blog-item position-relative bg-light rounded">
-                                {/* <img src="./assets/img/blog-3.jpg" class="img-fluid w-100 rounded-top" alt="" /> */}
-                                <div class="blog-content text-center position-relative px-3" style={{ marginTop: '-25px' }}>
-                                    <img src="./assets/img/admin.jpg" class="img-fluid rounded-circle border border-4 border-white mb-3" alt="" />
-                                    <h5 class="mb-3">Mobile Accessories</h5>
+                        <div className="col-lg-3 col-xl-3 wow fadeIn" data-wow-delay=".7s">
+                            <div className="blog-item position-relative bg-light rounded">
+                                {/* <img src="./assets/img/blog-3.jpg" className="img-fluid w-100 rounded-top" alt="" /> */}
+                                <div className="blog-content text-center position-relative px-3" style={{ marginTop: '-25px' }}>
+                                    <img src="./assets/img/admin.jpg" className="img-fluid rounded-circle border border-4 border-white mb-3" alt="" />
+                                    <h5 className="mb-3">Motherboards / RAM</h5>
                                 </div>
-                                <div class="blog-coments d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
-                                    {/* <a href="" class="text-white"><small><i class="fas fa-share me-2 text-secondary"></i>5324 Share</small></a>
-                                    <a href="" class="text-white"><small><i class="fa fa-comments me-2 text-secondary"></i>5 Comments</small></a> */}
+                                <div className="blog-coments d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
+                                    {/* <a href="" className="text-white"><small><i className="fas fa-share me-2 text-secondary"></i>5324 Share</small></a>
+                                    <a href="" className="text-white"><small><i className="fa fa-comments me-2 text-secondary"></i>5 Comments</small></a> */}
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-3 col-xl-3 wow fadeIn" data-wow-delay=".7s">
+                            <div className="blog-item position-relative bg-light rounded">
+                                {/* <img src="./assets/img/blog-3.jpg" className="img-fluid w-100 rounded-top" alt="" /> */}
+                                <div className="blog-content text-center position-relative px-3" style={{ marginTop: '-25px' }}>
+                                    <img src="./assets/img/admin.jpg" className="img-fluid rounded-circle border border-4 border-white mb-3" alt="" />
+                                    <h5 className="mb-3">Mobile Accessories</h5>
+                                </div>
+                                <div className="blog-coments d-flex justify-content-between px-4 py-2 border bg-primary rounded-bottom">
+                                    {/* <a href="" className="text-white"><small><i className="fas fa-share me-2 text-secondary"></i>5324 Share</small></a>
+                                    <a href="" className="text-white"><small><i className="fa fa-comments me-2 text-secondary"></i>5 Comments</small></a> */}
                                 </div>
                             </div>
                         </div>
@@ -313,92 +314,58 @@ function Home() {
                         <h5 className="text-primary">Our Testimonial</h5>
                         <h1>Our Client Saying!</h1>
                     </div>
-                    <div className="owl-carousel testimonial-carousel wow fadeIn" data-wow-delay=".5s">
-                        <div className="testimonial-item border p-4">
-                            <div className="d-flex align-items-center">
-                                <div className="">
-                                    <img src="./assets/img/testimonial-1.jpg" alt="" />
+                    <div id="testim" className="testim">
+                        {/* <!--         <div className="testim-cover"> --> */}
+                        <div className="wrap">
+
+                            <span id="right-arrow" className="arrow right fa fa-chevron-right"></span>
+                            <span id="left-arrow" className="arrow left fa fa-chevron-left "></span>
+                            <ul id="testim-dots" className="dots">
+                                <li className="dot active"></li><li className="dot"></li><li className="dot"></li><li className="dot"></li><li className="dot"></li>
+                            </ul>
+                            <div id="testim-content" className="cont">
+
+                                <div className="active">
+                                    <div className="img">
+                                        <img src="" alt="" /></div>
+                                    <h2>Lorem P. Ipsum</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
                                 </div>
-                                <div className="ms-4">
-                                    <h4 className="text-secondary">Client Name</h4>
-                                    <p className="m-0 pb-3">Profession</p>
-                                    <div className="d-flex pe-5">
-                                        <i className="fas fa-star me-1 text-primary"></i>
-                                        <i className="fas fa-star me-1 text-primary"></i>
-                                        <i className="fas fa-star me-1 text-primary"></i>
-                                        <i className="fas fa-star me-1 text-primary"></i>
-                                        <i className="fas fa-star me-1 text-primary"></i>
-                                    </div>
+
+                                <div>
+                                    <div className="img">
+                                        <img src="" alt="" /></div>
+                                    <h2>Mr. Lorem Ipsum</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
                                 </div>
+
+                                <div>
+                                    <div className="img">
+                                        <img src="" alt="" /></div>
+                                    <h2>Lorem Ipsum</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                                </div>
+
+                                <div>
+                                    <div className="img">
+                                        <img src="" alt="" /></div>
+                                    <h2>Lorem De Ipsum</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                                </div>
+
+                                <div>
+                                    <div className="img">
+                                        <img src="" alt="" /></div>
+                                    <h2>Ms. Lorem R. Ipsum</h2>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                                </div>
+
                             </div>
-                            <div className="border-top mt-4 pt-3">
-                                <p className="mb-0">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum aliquam dolor eget urna. Nam volutpat libero sit amet leo cursus, ac viverra eros morbi quis quam mi.</p>
-                            </div>
+
                         </div>
-                        <div className="testimonial-item border p-4">
-                            <div className=" d-flex align-items-center">
-                                <div className="">
-                                    <img src="./assets/img/testimonial-2.jpg" alt="" />
-                                </div>
-                                <div className="ms-4">
-                                    <h4 className="text-secondary">Client Name</h4>
-                                    <p className="m-0 pb-3">Profession</p>
-                                    <div className="d-flex pe-5">
-                                        <i className="fas fa-star me-1 text-primary"></i>
-                                        <i className="fas fa-star me-1 text-primary"></i>
-                                        <i className="fas fa-star me-1 text-primary"></i>
-                                        <i className="fas fa-star me-1 text-primary"></i>
-                                        <i className="fas fa-star me-1 text-primary"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="border-top mt-4 pt-3">
-                                <p className="mb-0">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum aliquam dolor eget urna. Nam volutpat libero sit amet leo cursus, ac viverra eros morbi quis quam mi.</p>
-                            </div>
-                        </div>
-                        <div className="testimonial-item border p-4">
-                            <div className=" d-flex align-items-center">
-                                <div className="">
-                                    <img src="./assets/img/testimonial-3.jpg" alt="" />
-                                </div>
-                                <div className="ms-4">
-                                    <h4 className="text-secondary">Client Name</h4>
-                                    <p className="m-0 pb-3">Profession</p>
-                                    <div className="d-flex pe-5">
-                                        <i className="fas fa-star me-1 text-primary"></i>
-                                        <i className="fas fa-star me-1 text-primary"></i>
-                                        <i className="fas fa-star me-1 text-primary"></i>
-                                        <i className="fas fa-star me-1 text-primary"></i>
-                                        <i className="fas fa-star me-1 text-primary"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="border-top mt-4 pt-3">
-                                <p className="mb-0">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum aliquam dolor eget urna. Nam volutpat libero sit amet leo cursus, ac viverra eros morbi quis quam mi.</p>
-                            </div>
-                        </div>
-                        <div className="testimonial-item border p-4">
-                            <div className=" d-flex align-items-center">
-                                <div className="">
-                                    <img src="./assets/img/testimonial-4.jpg" alt="" />
-                                </div>
-                                <div className="ms-4">
-                                    <h4 className="text-secondary">Client Name</h4>
-                                    <p className="m-0 pb-3">Profession</p>
-                                    <div className="d-flex pe-5">
-                                        <i className="fas fa-star me-1 text-primary"></i>
-                                        <i className="fas fa-star me-1 text-primary"></i>
-                                        <i className="fas fa-star me-1 text-primary"></i>
-                                        <i className="fas fa-star me-1 text-primary"></i>
-                                        <i className="fas fa-star me-1 text-primary"></i>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="border-top mt-4 pt-3">
-                                <p className="mb-0">Lorem ipsum dolor sit amet elit. Sed efficitur quis purus ut interdum aliquam dolor eget urna. Nam volutpat libero sit amet leo cursus, ac viverra eros morbi quis quam mi.</p>
-                            </div>
-                        </div>
+                        {/* <!--         </div> --> */}
                     </div>
+
                 </div>
             </div>
 
@@ -426,7 +393,7 @@ function Home() {
                                     <div className="col-xl-6 col-lg-6 wow fadeIn" data-wow-delay=".5s">
                                         <div className="card h-100 p-3 text-center">
                                             <h1><i className="fa fa-phone"></i></h1>
-                                            <a  href="tel:+918009200953" target="_blank">+91-8009200953</a>
+                                            <a href="tel:+918009200953" target="_blank">+91-8009200953</a>
                                         </div>
                                     </div>
                                     <div className="col-xl-6 col-lg-6 wow fadeIn" data-wow-delay=".7s">
